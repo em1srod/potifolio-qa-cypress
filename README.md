@@ -4,7 +4,7 @@
 
 Repositório de estudos e demonstração de boas práticas em QA utilizando Cypress + BDD.
 
-- **UI**: https://automationpractice.com  
+- **UI**: https://www.saucedemo.com  
 - **API**: https://reqres.in  
 - **Cucumber/Gherkin** para legibilidade de negócio  
 - Evidências automáticas (prints & vídeos)  
