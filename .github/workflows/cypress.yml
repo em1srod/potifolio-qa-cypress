@@ -14,6 +14,9 @@ jobs:
 
       - run: npm ci
 
+      - name: Criar pasta de evidências
+        run: mkdir -p cypress/evidences
+
       - name: Run Cypress headless
         run: npx cypress run
 

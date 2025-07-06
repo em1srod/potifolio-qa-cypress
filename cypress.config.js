@@ -23,5 +23,6 @@ module.exports = defineConfig({
     screenshotsFolder: "cypress/evidences",
     videosFolder: "cypress/evidences",
     video: true,          // gravações automáticas
+    supportFile: "cypress/support/e2e.js",
   },
 });
