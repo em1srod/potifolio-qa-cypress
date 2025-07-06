@@ -6,6 +6,7 @@ const createEsbuildPlugin = require("@badeball/cypress-cucumber-preprocessor/esb
 
 module.exports = defineConfig({
   e2e: {
+    supportFile: "cypress/support/e2e.js",
     baseUrl: "https://automationpractice.com",   // alvo UI
     async setupNodeEvents(on, config) {
       // habilita Cucumber + esbuild
@@ -23,6 +24,5 @@ module.exports = defineConfig({
     screenshotsFolder: "cypress/evidences",
     videosFolder: "cypress/evidences",
     video: true,          // gravações automáticas
-    supportFile: "cypress/support/e2e.js",
   },
 });
