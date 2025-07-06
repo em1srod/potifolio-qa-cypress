@@ -2,7 +2,7 @@ const { defineConfig } = require("cypress");
 const createBundler = require("@bahmutov/cypress-esbuild-preprocessor");
 const addCucumber =
   require("@badeball/cypress-cucumber-preprocessor").addCucumberPreprocessorPlugin;
-const createEsbuildPlugin = require("@badeball/cypress-cucumber-preprocessor/esbuild");
+const { createEsbuildPlugin } = require("@badeball/cypress-cucumber-preprocessor/esbuild");
 
 module.exports = defineConfig({
   e2e: {
