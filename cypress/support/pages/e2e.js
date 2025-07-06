@@ -1,9 +1,4 @@
-// Arquivo de suporte principal
-
-// Comandos customizados
-import './commands';
-
-// Pode incluir antes/todos os testes:
+// cypress/support/e2e.js
 before(() => {
-  cy.log('🔧 Iniciando os testes Cypress (CI)');
+  cy.log('Arquivo de suporte carregado com sucesso!');
 });
